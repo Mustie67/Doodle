@@ -1,0 +1,52 @@
+/* style.css - chalkboard look */
+.chalk-title{
+  font-family: 'Caveat', cursive;
+  font-size: 48px;
+  color: #F5F3E7;
+  text-shadow: 0 1px 0 rgba(0,0,0,0.6);
+  padding: 6px 0;
+}
+.chalk-sub{
+  color: #E8C468;
+  font-family: 'Space Grotesk', sans-serif;
+  margin-bottom: 12px;
+}
+.chalk-prompt{
+  color: #F5F3E7;
+  background: rgba(255,255,255,0.02);
+  padding: 12px;
+  border-radius: 6px;
+  font-family: 'Space Grotesk', sans-serif;
+}
+.guess-row{
+  display:flex;
+  align-items:center;
+  gap:8px;
+  margin-bottom:8px;
+}
+.guess-name{
+  width:80px;
+  color:#F5F3E7;
+  font-family: 'Caveat', cursive;
+  font-size:18px;
+  text-align:left;
+}
+.guess-bar{
+  flex:1;
+  height:18px;
+  background: rgba(255,255,255,0.06);
+  border-radius:9px;
+  overflow:hidden;
+  box-shadow: inset 0 1px 0 rgba(0,0,0,0.4);
+}
+.guess-fill{
+  height:100%;
+  background: linear-gradient(90deg, #E8C468, #E88D67);
+  border-radius:9px 0 0 9px;
+}
+.guess-pct{
+  width:60px;
+  color:#F5F3E7;
+  text-align:right;
+  font-family: 'Space Grotesk', sans-serif;
+}

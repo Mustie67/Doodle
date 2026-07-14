@@ -1,0 +1,7 @@
+streamlit>=1.0
+streamlit-drawable-canvas
+tensorflow>=2.6
+numpy
+scikit-learn
+matplotlib
+pillow

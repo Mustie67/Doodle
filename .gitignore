@@ -1,0 +1,5 @@
+__pycache__/
+model/doodle_cnn.h5
+model/metrics/
+data/
+.env
